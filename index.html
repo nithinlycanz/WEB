@@ -81,7 +81,24 @@
             </ul>
         </div>
     </div>
-    <script src="index.js"></script>
+    <td>Enter</td>
+    <input type="password" name="password" id="pwd1" placeholder="Enter your password">
+    <br>
+    <td>reEnter</td>
+    <input type="password" name="password" id="pwd2" placeholder="Reenter your password">
+    <br>
+    <script src="index.js">
+        var phone=document.getElementById('phone');
+        var submit=document.getElementById('submit');
+
+        submit.addEventListener('click',function(e){
+            e.preventDefault();
+            if(phone!=/^\{10}$/)
+                {
+                    alert("this is rong");
+                }
+        }
+    </script>
     <script src="lol.json"></script>
 </body>
 </html>
