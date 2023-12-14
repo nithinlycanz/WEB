@@ -1,0 +1,70 @@
+{
+    "items":[
+        {
+            "sys": {"id":"1"},
+            "fields":{
+                "title":"Stranger Things",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"helli.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"2"},
+            "fields":{
+                "title":"Fear street",
+                "price": 119.99,
+                "image":{"fields":{"file":{"url":"fear.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"3"},
+            "fields":{
+                "title":"Harry Potter",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"potter.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"4"},
+            "fields":{
+                "title":"Witcher",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"which.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"5"},
+            "fields":{
+                "title":"Dark",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"sky.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"6"},
+            "fields":{
+                "title":"Peaky Blinders",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"peaky.png"}}}
+            }
+        },
+        {
+            "sys": {"id":"7"},
+            "fields":{
+                "title":"The Witcher",
+                "price": 149.99,
+                "image":{"fields":{"file":{"url":"@.jpg"}}}
+            }
+        },
+        {
+            "sys":{"id":"8"},
+            "fields":{
+                "title":"Jason Bourne",
+                "price":99.99,
+                "Image":{"fields":{"file":{"url":"jason.jpg"}}}
+
+            }
+        }
+    ]
+
+}
