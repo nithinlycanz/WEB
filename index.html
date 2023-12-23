@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <title>Website</title>
+    <marquee>So New movies are getting added</marquee>
+    <!-- <marquee direction="right" behavior="alternate" style="border:BLACK 2px SOLID"> Geeks for Geeks </marquee> -->
+
+
 </head>
 <body>
     <nav class="navbar">
@@ -81,13 +85,20 @@
             </ul>
         </div>
     </div>
-    <td>Enter</td>
-    <input type="password" name="password" id="pwd1" placeholder="Enter your password">
-    <br>
-    <td>reEnter</td>
-    <input type="password" name="password" id="pwd2" placeholder="Reenter your password">
-    <br>
-    <script src="index.js">
+    
+    <div class="lol">
+
+        <td>Enter password</td>
+        <input type="password" name="password" id="pwd1" placeholder="Enter your password" required>
+        <br>
+    
+        <td>ReEnter password</td>
+        <input type="password" name="password" id="pwd2" placeholder="Reenter your password" required>
+        <br>
+        <button type="submit" id="submit" name="submit">Click here</button>
+    </div>
+    
+    <script >
         var phone=document.getElementById('phone');
         var submit=document.getElementById('submit');
 
@@ -97,7 +108,11 @@
                 {
                     alert("this is rong");
                 }
-        }
+            else
+                {
+                    alert("this is right");
+                }
+        });
     </script>
     <script src="lol.json"></script>
 </body>
